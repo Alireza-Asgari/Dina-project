@@ -2,7 +2,8 @@ import React, { useEffect } from "react";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
-import HelpDesk from "./helpDeskPages/Helpdesk";
+// import HelpDesk from "./helpDeskPages/Helpdesk";
+import HelpDesk from "./helpDeskPages/HelpDesk";
 import Layout from "./layout/Index";
 import ChinaSoftware from "./china/ChinaSoftware";
 import { Routes, Route, Navigate } from "react-router-dom";
@@ -58,7 +59,7 @@ const App = () => {
           <Route path="/تماس-با-ما-تماس-با-دینا" element={<CountactUs />} />
           <Route path="/search" element={<Search />} />
 
-          <Route path="/*" element={<Navigate to="/سامانه-هلپ-دسک-دینا" />} />
+          <Route path="/*" element={<Navigate to="/" />} />
         </Routes>
       </Layout>
     </div>
