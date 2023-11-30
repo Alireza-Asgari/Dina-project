@@ -1,5 +1,5 @@
 import React from "react";
-import image from "../assets/images/rfid-sys.gif";
+// import image from "../assets/images/rfid-sys.gif";
 
 const BazarUsing = () => {
   return (
@@ -93,11 +93,11 @@ const BazarUsing = () => {
             data-aos-duration="1000"
             className="flex items-center justify-center w-full mt-6 lg:mt-0"
           >
-            <img
+            {/* <img
               src={image}
               alt="image"
               className="w-auto h-w-auto lg:max-w-3xl rounded-3xl"
-            />
+            /> */}
           </div>
         </div>
       </div>
