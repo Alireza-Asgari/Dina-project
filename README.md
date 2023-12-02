@@ -14,4 +14,5 @@ Practice project using:
 - Tailwind
 - Radii-ui
 - Headless ui
+- Formik
   
