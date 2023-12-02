@@ -20,7 +20,7 @@ function Search() {
               onChange={(e) => setValue(e.target.value)}
             />
             <svg
-              className="absolute left-3 z-10 cursor-pointer dark:text-white"
+              className="absolute left-3 cursor-pointer dark:text-white"
               width={24}
               height={24}
               viewBox="0 0 24 24"
