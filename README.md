@@ -15,4 +15,5 @@ Practice project using:
 - Radii-ui
 - Headless ui
 - Formik
+- Aos
   
